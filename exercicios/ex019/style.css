@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*Html id - em css= #
+html class - em css .*/ 
+body{
+background-color: bisque;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: brown;
+}
+
+h1#principal{
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+}
+h2{
+    color: rgb(40, 121, 121);
+}
+.basico{
+    color: chartreuse;
+    
+
+}
+.intermediario{
+    color: blue;
+
+}
+.avançado{
+    color: chocolate;
+
+}
