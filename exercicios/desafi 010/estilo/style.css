@@ -10,11 +10,11 @@
 
 
 :root{
-    --cor0:#c5ebd6;
-    --cor1:#83elad;
-    --cor2:#3ddc84;
-    --cor3:#2fa866;
-    --cor4:#1a5c37;
+    --cor0:#49597A;
+    --cor1:#94B1DB;
+    --cor2:#3E2803;
+    --cor3:#83723A;
+    --cor4:#C8CAA2;
     --cor5:#063d1e;
 
     --font-padrao:arial, verdana, Helvetica, sans-serif;
@@ -37,19 +37,13 @@ a.externo::after {
 
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     font-size: em;
     min-height: 150px;
     text-align: center;
 
 }
-header>h1{
-    color:white;
-    font-family: var(--font-destaque);
-    font-size: 3em;
-    padding-top: 40px;
-    margin-bottom: 20px;
-    text-shadow:2px 2px 0px rgba (0,0,0,267) ;
+
 
 }
 header>p {
@@ -114,13 +108,13 @@ div.video>iframe{
 }
 main h1{
     color: var(--cor5);
-    font-family: var(--font-android);
+    font-family: var(--font-padrao);
 }
 main h2{
-    font-family: var(--font-android);
-    color: var(--cor4);
+    font-family: var(--font-padrao);
+    color: var(--cor2);
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor2), transparent);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
     
     text-indent: 8px;
 }
@@ -134,7 +128,7 @@ main p{
 
 }
 main strong{
-    color: var(--cor4);
+    color: var(--cor2);
     font-weight: bold;
 
 }
@@ -142,32 +136,24 @@ main a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     padding: 2px 6px;
 
 }
 main a:hover{
     text-decoration: underline;
-    color: var(--cor3);
-}
-main img{
-    width: 100%;
-  
-}
-main img.pequena{
-    max-width: 350px;
-    display: block;
-    margin: auto;
+    color: var(--cor1);
 }
 
+
 aside{
-    background-color:var(--cor2);
+    background-color:var(--cor1);
     padding: 10px;
     border-radius: 10px;
 }
 
 aside >h3{
-    background-color: var(--cor4) ;
+    background-color: var(--cor2) ;
     color: white;
     padding: 10px;
     margin: -9px -9px 0px -9px;
